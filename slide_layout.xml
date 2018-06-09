@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/deutschland_botschaft"/>
+    <TextView
+        android:id="@+id/slide_headings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="امور سفارت"
+        android:layout_below="@id/slide_image"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/whitecolor"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_below="@id/slide_headings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="23dp"
+        android:id="@+id/slide_descriptions"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:maxLines="2"
+        android:textColor="@color/whitecolor"
+        android:textAlignment="center"
+        android:text="    راهنمایی های قبل و بعد از دریافت ویزای تحصیلی آلمان "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>
